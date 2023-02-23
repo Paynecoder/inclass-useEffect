@@ -45,7 +45,6 @@
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     cursor: pointer;
-    margin-right: 1rem;
 }
 
 .button:hover {
@@ -60,4 +59,12 @@
     border-radius: 1rem;
     background-color: var(--secondary-color);
     width: 500px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
