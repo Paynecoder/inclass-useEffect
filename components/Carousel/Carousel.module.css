@@ -1,0 +1,7 @@
+.carousel  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    border-radius: 20px;
+}

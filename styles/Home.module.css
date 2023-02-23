@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--primary-color);
+}
+
+.main > a {
+  color: var(--tertiary-color);
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+.main > a:hover {
+  text-decoration: underline;
+}
+
+.main > h1 {
+  color: var(--tertiary-color);
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
