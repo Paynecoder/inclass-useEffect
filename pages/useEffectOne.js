@@ -18,7 +18,7 @@ export default function useEffectOne() {
         <div>
           <h1 className={styles.title}>useEffectOne</h1>
         </div>
-        <div>
+        <div className={styles.btns}>
           <h2 className={styles.count}>Count: {count}</h2>
           <button onClick={() => setCount(undefined)} className={styles.button}>
             Stop Count
