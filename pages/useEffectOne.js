@@ -23,6 +23,9 @@ export default function useEffectOne() {
           <button onClick={() => setCount(undefined)} className={styles.button}>
             Stop Count
           </button>
+          <button onClick={() => setCount(0)} className={styles.button}>
+            Start Count
+            </button>
         </div>
         <div className={styles.desc}>
           <h3 className={styles.desctitle}>Description:</h3>
